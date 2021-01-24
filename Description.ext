@@ -1,0 +1,18 @@
+enableDebugConsole[] = {"76561198145133674"};
+disableChannels[] = {
+	{0, false, false}, //--- Global Chat
+	{1, false, false}, //--- Side Chat
+	{2, false, false}, //--- Command Chat
+	{3, false, true}, //--- Group Chat
+	{4, false, false}, //--- Vehicle Chat
+	{5, false, true}, //--- Direct Chat
+	{6, true, true} //--- System Chat
+};
+
+respawnTemplates[] = {"MenuPosition", "tickets"};
+respawn = "BASE";
+respawnDialog = 0;
+respawnOnStart = -1;
+saving = 0;
+respawnDelay = 30;
+
